@@ -11,6 +11,7 @@ mkdir ./bin
 mkdir ./test
 touch ./test/main.c
 mkdir ./test/bin
+touch ./README.md
 
 cp ${SOURCE_DIR}/templates/makefile.template ${TARGET_DIR}/makefile
 cp ${SOURCE_DIR}/templates/main.c.template ${TARGET_DIR}/src/main.c
