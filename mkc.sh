@@ -6,6 +6,7 @@ SOURCE_DIR=$(dirname $(readlink -f $0))
 mkdir ./src
 mkdir ./src/include
 touch ./src/main.c
+mkdir ./doc
 mkdir ./bin
 mkdir ./test
 touch ./test/main.c
